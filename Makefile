@@ -1,3 +1,3 @@
 .PHONY: all
 all:
-	gcc -o test main.c buddy.c
+	gcc -O2 -o test main.c buddy.c
